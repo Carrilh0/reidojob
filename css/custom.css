@@ -1,0 +1,28 @@
+/*
+File Name: 		custom.css
+Description:  You can add your custom CSS here and it will overwrite template styles
+*/
+
+/*# sourceMappingURL=maps/custom.css.map */
+
+@media (max-width: 768px) {
+    .landing-detail--left span, .landing-detail-cover--left span {
+        left: -130px !important;
+    }
+
+    .landing-detail--right span, .landing-detail-cover--right span {
+        right: -130px !important;
+    }   
+
+    .site-header--landing .main-nav:first-of-type {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    .site-header--landing .main-nav:last-of-type {
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+}
