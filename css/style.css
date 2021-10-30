@@ -18874,20 +18874,20 @@ div.cs-active {
 
 .ncr-page-decor--color-2 .ncr-page-decor__layer-1 {
   background-color: #bd2400;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e52e00), to(#690c00));
-  background-image: linear-gradient(#e52e00, #690c00);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e55c00), to(#ffd900));
+  background-image: linear-gradient(#e55c00, #ffd900);
 }
 
 .ncr-page-decor--color-2 .ncr-page-decor__layer-2 {
   background-color: #d23b00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ed4b00), to(#981300));
-  background-image: linear-gradient(#ed4b00, #981300);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ed8600), to(#ffbb00));
+  background-image: linear-gradient(#ed8600, #ffbb00);
 }
 
 .ncr-page-decor--color-2 .ncr-page-decor__layer-3 {
   background-color: #ff5c1c;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffa632), to(#ff1306));
-  background-image: linear-gradient(#ffa632, #ff1306);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffa632), to(#ffd106));
+  background-image: linear-gradient(#ff7d32, #ffd106);
 }
 
 .ncr-page-decor--color-3 .ncr-page-decor__layer-1 {
@@ -21102,6 +21102,7 @@ body:not(.cursor-is--active) .select-wrapper select {
 }
 
 .main-nav {
+  display: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -21333,6 +21334,7 @@ li.focus > .site-header--bottom .main-nav__megamenu.main-nav__sub--dropup {
   -webkit-transform: translate(0, calc(-100% + 48px));
           transform: translate(0, calc(-100% + 48px));
 }
+
 @media (min-width: 768px) {
   .site-header--landing .main-nav {
     display: -webkit-box;
@@ -27210,7 +27212,7 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 93px;
+  padding-top: 50px;
 }
 
 @media (min-width: 992px) {

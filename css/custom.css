@@ -5,6 +5,48 @@ Description:  You can add your custom CSS here and it will overwrite template st
 
 /*# sourceMappingURL=maps/custom.css.map */
 
+.page-thumbnail {
+    background: #2424248a;
+}
+
+.site-content__inner {
+    display: flex;
+    justify-content: center;
+}
+
+.whats-buy {
+    width: 400px;
+    height: 60px;
+    font-size: 32px;
+    background: #fbbe04;
+    animation: pulse 1s infinite alternate;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.whats-buy:hover {
+    background: #fbbe04;
+}
+
+#elojob {
+    margin: 0px 0px 50px;
+}
+
+.video-lado {
+    z-index: 0;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0px 0px rgb(248 133 1);
+	}
+
+	100% {
+        box-shadow: 0 0px 40px -4px rgb(248 133 1)
+
+	}
+}
+
 @media (max-width: 768px) {
     .landing-detail--left span, .landing-detail-cover--left span {
         left: -130px !important;
@@ -19,10 +61,18 @@ Description:  You can add your custom CSS here and it will overwrite template st
         top: 0;
         left: 0;
     }
-    
+
     .site-header--landing .main-nav:last-of-type {
         position: fixed;
         top: 0;
         right: 0;
+    }
+
+    .whats-buy {
+        width: 100%;
+    }
+
+    .fix-spacing {
+        margin-top: 40px;
     }
 }
