@@ -58,6 +58,12 @@
         left: 10%;
     }
 
+	@media (min-width: 1925px) {
+        .video-full-bg__clip {
+            left: 65%;
+        }
+    }
+
     @media (max-width: 995px) {
         .video-full-bg__clip {
             left: 20%;
@@ -90,10 +96,10 @@
 			<nav class="main-nav">
 				<ul class="main-nav__list">
 					<li class=""><a href="index.html">Início</a></li>
-					<li class="active"><a href="index.html">Elo Boost</a></li>
-                    <li class=""><a href="index.html">Duo Boost</a></li>
-					<li class=""><a href="index.html">MD10</a></li>
-                    <li class=""><a href="index.html">COACH</a></li>
+					<li class=""><a href="elo-boost.html">Elo Boost</a></li>
+                    <li class="active"><a href="duo-boost.html">Duo Boost</a></li>
+					<li class=""><a href="md10.html">MD10</a></li>
+                    <li class=""><a href="coach.html">COACH</a></li>
 				</ul>
 				</ul>
 			</nav>
@@ -133,10 +139,6 @@
                         </video>
 						<!-- Decoration -->
 						<div class="ncr-page-decor--color-2">
-							<div class="ncr-page-decor__layer-1">
-								<div class="ncr-page-decor__layer-bg"></div>
-							</div>
-							<div class="ncr-page-decor__layer-2"></div>
 							<div class="ncr-page-decor__layer-3">
 								<div class="ncr-page-decor__layer-bg"></div>
 							</div>
@@ -149,7 +151,7 @@
                     <div id="elojob" class="offer-area offer-area-3 pt-100 pb-100" data-background="images/bg.png" style="background-image: url(&quot;images/bg.png&quot;);">
                         <div class="container">
                             <div class="generic-title text-center mb-5">
-                                <h3 class="text-black mb-2">ELO JOB (Elo Boost)</h3>
+                                <h3 class="text-black mb-2">DUO JOB (Duo Boost)</h3>
                                 <span>Nós, parcelamos qualquer serviço em até 12x no cartão de crédito
                                     Através de Picpay ou MercadoPago</span>
                             </div>
@@ -203,8 +205,6 @@
                                                             <option value="p" data-img="images/platina.png">Platina</option>
                                                             <option value="d" data-img="images/diamante.png">Diamante</option>
                                                             <option value="m" id="m" data-img="images/mestre.png">Mestre</option>
-                                                            <option value="gm" id="gm" data-img="images/graomestre.png">Grão Mestre</option>
-                                                            <option value="c" id="c" data-img="images/desafiante.png">Desafiante</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -305,138 +305,29 @@
 		<div class="menu-panel">
 			<ul class="menu-panel__mobile-bar list-unstyled d-md-none">
 				<li class="mobile-bar-item">
-					<a class="mobile-bar-item__header collapsed" data-toggle="collapse" href="#mobile_collapse_1" role="button" aria-expanded="false" aria-controls="mobile_collapse_1">
-						Menu
-						<span class="main-nav__toggle">&nbsp;</span>
+					<a class="mobile-bar-item__header collapsed" href="index.html">
+						Inicio
+					</a>
+					<a class="mobile-bar-item__header collapsed" href="elo-boost.html">
+						Elo Boost
+					</a>
+					<a class="mobile-bar-item__header collapsed" href="duo-boost.html">
+						Duo Boost
+					</a>
+					<a class="mobile-bar-item__header collapsed" href="md10.html">
+						MD10
+					</a>
+					<a class="mobile-bar-item__header collapsed" href="coach.html">
+						COACH
+					</a>
+					<a class="mobile-bar-item__header collapsed" href="politicas-de-privacidade.html">
+						POLÍTICAS DE PRIVACIDADE
 					</a>
 					<div id="mobile_collapse_1" class="collapse mobile-bar-item__body">
-						<!-- Mobile Navigation -->
-						<nav class="mobile-nav">
-							<ul class="mobile-nav__list">
-								<li class="">
-									<a href="index.html">Início</a>
-								</li>
-								<li class="">
-									<a href="#">TIMES</a>
-									<ul class="mobile-nav__sub">
-										<li class=""><a href="cod_mobile.html">CALL OF DUTY: MOBILE</a></li>
-									</ul>
-								</li>
-								<li class="">
-									<a href="https://thenextlevel.fun/portal">EVENTOS</a>
-								</li>
-							</ul>
-						</nav>
-						<!-- Mobile Navigation / End -->
-					</div>
-				</li>
-				<li class="mobile-bar-item">
-					<a class="mobile-bar-item__header collapsed" data-toggle="collapse" href="#mobile_collapse_2" role="button" aria-expanded="false" aria-controls="mobile_collapse_2">
-						Segue a gente nas redes
-						<span class="main-nav__toggle">&nbsp;</span>
-					</a>
-					<div id="mobile_collapse_2" class="collapse mobile-bar-item__body">
-						<ul class="social-menu social-menu--mobile-bar">
-							<li><a href="https://www.facebook.com/thenextlevel.fun/"><span>Facebook</span></a></li>
-							<li><a href="https://instagram.com/nextlevel.fun"><span>Instagram</span></a></li>
-							<li><a href="https://twitch.tv/centralnextlevel"><span>Twitch</span></a></li>
-						</ul>
-					</div>
-				</li>
-				<li class="mobile-bar-item mobile-bar-item--info">
-					<a class="mobile-bar-item__header collapsed" data-toggle="collapse" href="#mobile_collapse_3" role="button" aria-expanded="false" aria-controls="mobile_collapse_3">
-						Contato
-						<span class="main-nav__toggle">&nbsp;</span>
-					</a>
-					<div id="mobile_collapse_3" class="collapse mobile-bar-item__body">
-						<div class="mobile-bar-item__inner">
-							<ul class="list-unstyled">
-								<li class="info-box">
-									<div class="info-box__label">Converse com um dos nossos recrutadores</div>
-									<div class="info-box__content"><a href="mailto:#">recrutamento<span class="color-primary">@</span>thenextlevel.fun</a></div>
-								</li>
-								<li class="info-box">
-									<div class="info-box__label">Seja um Patrocinador</div>
-									<div class="info-box__content"><a href="mailto:#">patrocinio<span class="color-primary">@</span>thenextlevel.fun</a></div>
-								</li>
-								<li class="info-box">
-									<div class="info-box__label">Informações gerais</div>
-									<div class="info-box__content"><a href="mailto:#">contato<span class="color-primary">@</span>thenextlevel.fun</a></div>
-								</li>
-							</ul>
-						</div>
+						
 					</div>
 				</li>
 			</ul>
-			<div class="menu-panel__content d-none d-md-flex">
-				<div class="menu-panel__navigation">
-					<div id="dl-menu" class="dl-menuwrapper">
-						<!-- <button class="dl-trigger">Open Menu</button> -->
-						<ul class="dl-menu dl-menuopen">
-							<li class="">
-								<a href="index.html">Início</a>
-							</li>
-							<li class="active">
-								<a href="#">EVENTOS</a>
-								<ul class="dl-submenu">
-									<li class="active">
-										<a href="xtreinobr.html">X-TREINO BR</a>
-										<a href="xtreinomj.html">X-TREINO MJ</a>
-									</li>
-								</ul>
-							</li>
-
-							<li class=""><a href="#">CONTATO</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="menu-panel__widget-area">
-					<div class="row">
-						<div class="col-md-12 col-lg-6 col-xl-5">
-							<!-- Widget: Text -->
-							<section class="widget widget-text">
-								<h5 class="widget__title">Faça parte do nosso time</h5>
-								<div class="widget__content">
-									<p>
-										Estamos sempre procurando por novos talentos para juntar-se ao clube! Se quiser uma entrevista, manda um email e retornaremos o contato!
-									</p>
-									<div class="info-box">
-										<div class="info-box__label">Ou converse com um dos nossos recrutadores</div>
-										<div class="info-box__content"><a href="mailto:#">recrutamento<span class="color-primary">@</span>thenextlevel.fun</a></div>
-									</div>
-									<div class="info-box">
-										<div class="info-box__label">Seja um patrocinador!</div>
-										<div class="info-box__content"><a href="mailto:#">patrocinio<span class="color-primary">@</span>thenextlevel.fun</a></div>
-									</div>
-								</div>
-							</section>
-							<!-- Widget: Text / End -->
-						</div>
-						<div class="col-md-12 col-lg-6 col-xl-5 offset-xl-2 mt-5 mt-lg-0">
-							<!-- Widget: Contact Info -->
-							<section class="widget widget-contact-info">
-								<h5 class="widget__title">Contato rápido</h5>
-								<div class="widget__content">
-									<p>
-										Se você tem alguma sugestão, feedbacks ou reclamações, entre em contato com a nossa central
-									</p>
-									<div class="info-box">
-										<div class="info-box__label">Informações gerais</div>
-										<div class="info-box__content"><a href="mailto:#">contato<span class="color-primary">@</span>thenextlevel.fun</a></div>
-									</div>
-									<ul class="social-menu social-menu--default">
-										<li><a href="https://www.facebook.com/thenextlevel.fun"></a></li>
-										<li><a href="https://instagram.com/nextlevel.fun"></a></li>
-										<li><a href="https://twitch.tv/centralnextlevel"></a></li>
-									</ul>
-								</div>
-							</section>
-							<!-- Widget: Contact Info / End -->
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 		<!-- Menu Panel / End -->
 
@@ -469,7 +360,7 @@
 	
 	<!-- Template JS -->
 	<script src="js/init.js"></script>
-	<script src="js/custom.js"></script>
+	<script src="js/duo-boost.js"></script>
 	
 	<!-- Duotone SVG color filter -->
 	<svg xmlns="http://www.w3.org/2000/svg" class="svg-filters">

@@ -4,9 +4,12 @@ Description:  You can add your custom CSS here and it will overwrite template st
 */
 
 /*# sourceMappingURL=maps/custom.css.map */
+.scroll-is--active .page-thumbnail--default .ncr-page-decor__layer-3 {
+    opacity: 0.7;
+}
 
 .page-thumbnail {
-    background: #2424248a;
+    background: #212540d1;
 }
 
 .site-content__inner {

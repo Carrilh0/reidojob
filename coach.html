@@ -1,0 +1,333 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<title>Rei do Elojob | Calculadora</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Rei do Elojob é o serviço ideal para você subir o elo da sua conta! Faça o cálculo até o elo desejado!">
+	<meta name="author" content="Filipe Teixeira">
+	<meta name="keywords" content="esports team news HTML template">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/rei_cortada.png">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<!-- Google Web Fonts
+	================================================== -->
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700" rel="stylesheet">
+
+	<!-- CSS
+	================================================== -->
+	<!-- Vendor CSS -->
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/slick.css" rel="stylesheet">
+	<link href="css/nanoscroller.css" rel="stylesheet">
+	<link href="css/brands.css">
+
+	<!-- Template CSS-->
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Custom CSS-->
+	<link href="css/custom.css" rel="stylesheet">
+    <script type="text/javascript">
+        onload=function(){
+            var min=5
+            var max=14
+            var num=Math.round((max-min)*Math.random()+min)
+            document.getElementById("visits").innerHTML=num
+        }
+    </script>
+
+</head>
+<style>
+    .header-logo--img {
+        width: 60px !important;
+    }
+
+    .video-full-bg__clip {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
+
+	@media (min-width: 1925px) {
+        .video-full-bg__clip {
+            left: 65%;
+        }
+    }
+
+    @media (max-width: 995px) {
+        .video-full-bg__clip {
+            left: 20%;
+        }
+    }
+
+    @media (max-width: 490px) {
+        .video-full-bg__clip {
+            top: 70%;
+            left: -30%;
+        }
+    }
+</style>
+<body class="preloader-is--active ">
+
+	<div class="site-wrapper site-layout--default">
+
+		<!-- Header
+		================================================== -->
+		<header id="header" class="site-header site-header--top">
+		
+			<!-- Logo - Image Based -->
+			<div class="header-logo header-logo--img">
+				<a href="index.html"><img src="images/rei_cortada.png" alt="Necromancers"></a>
+			</div>
+			<!-- Logo - Image Based / End -->
+		
+		
+			<!-- Main Navigation -->
+			<nav class="main-nav">
+				<ul class="main-nav__list">
+					<li class=""><a href="index.html">Início</a></li>
+					<li class=""><a href="elo-boost.html">Elo Boost</a></li>
+                    <li class=""><a href="duo-boost.html">Duo Boost</a></li>
+					<li class="active"><a href="md10.html">MD10</a></li>
+                    <li class=""><a href="coach.html">COACH</a></li>
+				</ul>
+				</ul>
+			</nav>
+			<!-- Main Navigation / End -->
+		
+			<!-- Header Actions -->
+			<div class="header-actions">
+				<div class="header-top-bar-toggle d-md-none hide">
+					<svg role="img" class="df-icon df-icon--joystick">
+						<use xlink:href="images/necromancers.svg#joystick"/>
+					</svg>
+					<svg role="img" class="df-icon df-icon--close">
+						<use xlink:href="images/necromancers.svg#close"/>
+					</svg>
+				</div>
+				<div class="header-menu-toggle">
+					<div class="header-menu-toggle__inner">
+						<span>&nbsp;</span>
+						<span>&nbsp;</span>
+						<span>&nbsp;</span>
+					</div>
+				</div>
+			</div>
+			<!-- Header Actions / End -->
+		</header>
+		<!-- Header / End -->
+
+		<!-- Content
+		================================================== -->
+		<main class="site-content" id="wrapper">
+			<div class="site-content__inner">
+				<div class="site-content__holder">
+					<figure class="page-thumbnail page-thumbnail--default">
+						<img class="page-bg-logo" src="images/rei_cortada.png" alt="">
+                        <video class="video-full-bg__clip video-full-bg__clip--black-white video-lado" playsinline autoplay muted loop>
+                            <source src="video/kalista.mp4" type="video/mp4">
+                        </video>
+						<!-- Decoration -->
+						<div class="ncr-page-decor--color-2">
+							<div class="ncr-page-decor__layer-3">
+								<div class="ncr-page-decor__layer-bg"></div>
+							</div>
+							<div class="ncr-page-decor__layer-4"></div>
+							<div class="ncr-page-decor__layer-5"></div>
+							<div class="ncr-page-decor__layer-6"></div>
+						</div>
+						<!-- Decoration / End -->
+					</figure>
+                    <div id="elojob" class="offer-area offer-area-3 pt-100 pb-100" data-background="images/bg.png" style="background-image: url(&quot;images/bg.png&quot;);">
+                        <div class="container">
+                            <div class="generic-title text-center mb-5">
+                                <h3 class="text-black mb-2">COACH</h3>
+                                <span>Nós, parcelamos qualquer serviço em até 12x no cartão de crédito
+                                    Através de Picpay ou MercadoPago</span>
+                            </div>
+                            <div class="offer__wrapper mt-80">
+                                <div class="row">
+									<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6">
+										<div class="offer__content text-center" style="margin-bottom: 20px;">
+											<h5>Quantidade de partidas</h5>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<select id="partidas" name="ct" class="form-control">
+														<option selected="" value="5" data-img="images/unranked.png">5 Partidas</option>
+														<option value="10" data-img="images/ferro.png">10 Partidas</option>
+														<option value="15" data-img="images/bronze.png">15 Partidas</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+                    
+                                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 d-flex justify-content-center">
+                                        <div class="offer-box pb-30">
+                                            <div class="offer__content text-center" style="margin-bottom: 20px;">
+                                                <div class="form_group text-center">
+                                                    <h4 class="valor fix-spacing mt-4" id="price" valor-inicial="40">R$ 40,00</h4Fcom>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="mt-4" style="margin-top: 20px !important;">
+                                                        <div class="d-grid gap-2">
+                                                            <button onclick="whats()" class="btn btn-success whats-buy" type="button">Compre agora!</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<h1 class="page-title h3 mb-4">O REI DO ELOJOB</h1>
+					<div class="page-content">
+						<p>
+							O Rei do elojob tem 5 anos de experiência e milhares de serviços de Elojob (elo boost), Duo boost e Coaching concluídos com sucesso, certificando a grande satisfação de nossos clientes.
+						</p>
+						<h4>Porque escolher O REI DO ELOJOB?</h4>
+						<p>
+							Temos os melhores boosters para concluir o seu serviço com agilidade, profissionalismo e um preço super barato, além disso damos sempre o melhor apoio aos nossos clientes, trabalhamos com mercado pago e com criptografia em nossos servidores, tudo isso para que você possa comprar e navegar com segurança. Buscamos sempre oferecer aos clientes um serviço de qualidade, seguro e com um suporte impecável. Nossa proposta é simples: Oferecer o melhor serviço pelo menor preço.
+						</p>
+						<div class="spacer"></div>
+						<div class="row">
+							<div class="col-md-4 mb-4 mb-md-0 d-flex justify-content-center">
+								<div class="counter">
+									<div class="counter__icon counter__icon--left">
+										<svg role="img" class="df-icon df-icon--joystick">
+											<use xlink:href="images/necromancers.svg#joystick"/>
+										</svg>
+									</div>
+									<div class="counter__number">5312</div>
+									<div class="counter__label">Serviços finalizados</div>
+								</div>
+							</div>
+							<div class="col-md-4 mb-4 mb-md-0 d-flex justify-content-center">
+								<div class="counter">
+									<div class="counter__icon counter__icon--left">
+										<svg role="img" class="df-icon df-icon--trophy">
+											<use xlink:href="images/necromancers.svg#trophy"/>
+										</svg>
+									</div>
+									<div class="counter__number" id="visits"></div>
+									<div class="counter__label">Usuários no site</div>
+								</div>
+							</div>
+							<div class="col-md-4 d-flex justify-content-center">
+								<div class="counter">
+									<div class="counter__icon counter__icon--left">
+										<svg role="img" class="df-icon df-icon--chart">
+											<use xlink:href="images/necromancers.svg#chart"/>
+										</svg>
+									</div>
+									<div class="counter__number">104</div>
+									<div class="counter__label">Número de Boosters</div>
+								</div>
+							</div>
+						</div>
+						<div class="spacer"></div>
+					</div>
+				</div>
+			</div>
+		</main>
+		
+
+		<!-- Overlay -->
+		<div class="site-overlay"></div>
+		<!-- Overlay / End -->
+
+		<!-- Menu Panel -->
+		<div class="menu-panel">
+			<ul class="menu-panel__mobile-bar list-unstyled d-md-none">
+				<li class="mobile-bar-item">
+					<a class="mobile-bar-item__header collapsed" href="index.html">
+						Inicio
+					</a>
+					<a class="mobile-bar-item__header collapsed" href="elo-boost.html">
+						Elo Boost
+					</a>
+					<a class="mobile-bar-item__header collapsed" href="duo-boost.html">
+						Duo Boost
+					</a>
+					<a class="mobile-bar-item__header collapsed" href="md10.html">
+						MD10
+					</a>
+					<a class="mobile-bar-item__header collapsed" href="coach.html">
+						COACH
+					</a>
+					<a class="mobile-bar-item__header collapsed" href="politicas-de-privacidade.html">
+						POLÍTICAS DE PRIVACIDADE
+					</a>
+					<div id="mobile_collapse_1" class="collapse mobile-bar-item__body">
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- Menu Panel / End -->
+
+	</div>
+
+	<div class="preloader-overlay">
+		<div id="js-preloader" class="preloader">
+			<div class="preloader-inner fadeInUp">
+				<div class="pong-loader"></div>
+				<svg role="img" class="df-icon df-icon--preloader-arcade">
+					<use xlink:href="images/necromancers.svg#preloader-arcade"/>
+				</svg>
+			</div>
+		</div>
+	</div>
+
+	<!-- The cursor elements -->
+	<div class="df-custom-cursor-wrap">
+		<div id="df-custom-cursor"></div>
+	</div>
+
+	<!-- Javascript Files
+	================================================== -->
+	<!-- Core JS -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/core.js"></script>
+	<!-- Vendor JS -->
+	
+	<!-- Template JS -->
+	<script src="js/init.js"></script>
+	<script src="js/coach.js"></script>
+	
+	<!-- Duotone SVG color filter -->
+	<svg xmlns="http://www.w3.org/2000/svg" class="svg-filters">
+		<filter id="duotone_base">
+			<feColorMatrix type="matrix" result="grayscale"
+				values="1 0 0 0 0
+								1 0 0 0 0
+								1 0 0 0 0
+								0 0 0 1 0" />
+			<feComponentTransfer color-interpolation-filters="sRGB" result="duotone_base_filter">
+				<feFuncR type="table" tableValues="0.082352941176471 0.419607843137255"></feFuncR>
+				<feFuncG type="table" tableValues="0.090196078431373 0.443137254901961"></feFuncG>
+				<feFuncB type="table" tableValues="0.125490196078431 0.6"></feFuncB>
+				<feFuncA type="table" tableValues="0 1"></feFuncA>
+			</feComponentTransfer>
+		</filter>
+	</svg>
+
+</body>
+
+</html>
