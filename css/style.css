@@ -17465,7 +17465,7 @@ h4 + .spacer {
 }
 
 .color-success {
-  color: #88df00 !important;
+  color: #fbbe04 !important;
 }
 
 .color-danger {
@@ -17530,7 +17530,7 @@ h4 + .spacer {
 .alert-success {
   color: #222430;
   background-color: #fff;
-  border-color: #88df00;
+  border-color: #fbbe04;
 }
 
 .alert-success hr {
@@ -17546,7 +17546,7 @@ h4 + .spacer {
 }
 
 .alert-success::before {
-  background-color: #88df00;
+  background-color: #fbbe04;
 }
 
 .alert-success::after {
@@ -17700,7 +17700,7 @@ body:not(.cursor-is--active) .accordion-item__link {
   right: 0;
   width: 14px;
   height: 14px;
-  border: 2px solid #88df00;
+  border: 2px solid #fbbe04;
   -webkit-transition: border-color 300ms ease;
   transition: border-color 300ms ease;
 }
@@ -17721,7 +17721,7 @@ body:not(.cursor-is--active) .accordion-item__link {
   height: 2px;
   content: "";
   background-color: #222430;
-  background-color: #88df00;
+  background-color: #fbbe04;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
@@ -17740,11 +17740,11 @@ body:not(.cursor-is--active) .accordion-item__link {
 }
 
 .accordion-item__link:hover .accordion-item__icon {
-  border-color: #88df00;
+  border-color: #fbbe04;
 }
 
 .accordion-item__link:hover .accordion-item__icon:after, .accordion-item__link:hover .accordion-item__icon:before {
-  background-color: #88df00;
+  background-color: #fbbe04;
 }
 
 .collapsed .accordion-item__icon {
@@ -17872,7 +17872,7 @@ fieldset[disabled] a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #88df00;
+  background-color: #fbbe04;
 }
 
 .btn-success:hover {
@@ -18341,7 +18341,7 @@ input[type="button"].btn-block {
 .counter__icon .df-icon {
   width: 24px;
   height: 24px;
-  fill: #88df00;
+  fill: #fbbe04;
 }
 
 @media (min-width: 1920px) {
@@ -19942,7 +19942,7 @@ a:hover ~ .dl-toggle:before {
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: transparent;
-  border-color: #88df00;
+  border-color: #fbbe04;
 }
 
 .form-control.has-success {
@@ -20023,7 +20023,7 @@ body:not(.cursor-is--active) .select-wrapper select {
 .select-wrapper:after, .select-wrapper:before {
   content: "";
   position: absolute;
-  background-color: #88df00;
+  background-color: #fbbe04;
   -webkit-transition: opacity 300ms ease;
   transition: opacity 300ms ease;
 }
@@ -20117,7 +20117,7 @@ body:not(.cursor-is--active) .select-wrapper select {
   height: 2px;
   content: "";
   opacity: 0;
-  background-color: #88df00;
+  background-color: #fbbe04;
   -webkit-transition: opacity 300ms ease;
   transition: opacity 300ms ease;
 }
@@ -26921,7 +26921,7 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
   --primary: #fbbe04;
   --secondary: #5e627e;
   --tertiary: #222430;
-  --success: #88df00;
+  --success: #fbbe04;
   --info: #ced0da;
   --warning: #ffcc00;
   --danger: #ff1c5c;
@@ -27101,7 +27101,7 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
 }
 
 .bc-color-pallete-07 {
-  border-color: #88df00;
+  border-color: #fbbe04;
 }
 
 .bc-color-pallete-08 {
@@ -29964,7 +29964,7 @@ body:not(.cursor-is--active) .post__sharing-item--menu i {
 }
 
 .comment__reply a {
-  color: #88df00;
+  color: #fbbe04;
   -webkit-transition: color 300ms ease;
   transition: color 300ms ease;
 }
@@ -30149,7 +30149,7 @@ body:not(.cursor-is--active) .post__sharing-item--menu i {
   position: absolute;
   top: 0;
   left: 0;
-  fill: #88df00;
+  fill: #fbbe04;
 }
 
 .account-navigation__logout:hover .df-icon--logout-arrow {
@@ -30181,7 +30181,7 @@ body:not(.cursor-is--active) .post__sharing-item--menu i {
   right: 0;
   width: 14px;
   height: 14px;
-  background-color: #88df00;
+  background-color: #fbbe04;
 }
 
 @media (min-width: 1920px) {
@@ -30315,7 +30315,7 @@ body:not(.cursor-is--active) .post__sharing-item--menu i {
 }
 
 .account-navigation__menu a:hover:before, .account-navigation__menu a.active:before {
-  color: #88df00;
+  color: #fbbe04;
 }
 
 .account-content {
@@ -30918,7 +30918,7 @@ body:not(.cursor-is--active) .post__sharing-item--menu i {
 }
 
 .checkout-order__promo .amount {
-  color: #88df00;
+  color: #fbbe04;
 }
 
 .checkout-order__order-total {
@@ -31619,7 +31619,7 @@ body:not(.cursor-is--active) .post__sharing-item--menu i {
   padding: 0;
   width: 6px;
   height: 6px;
-  color: #88df00;
+  color: #fbbe04;
 }
 
 body:not(.cursor-is--active) .product__options .quantity-control button {
@@ -31629,7 +31629,7 @@ body:not(.cursor-is--active) .product__options .quantity-control button {
 .product__options .quantity-control button:after, .product__options .quantity-control button:before {
   position: absolute;
   content: "";
-  background-color: #88df00;
+  background-color: #fbbe04;
   -webkit-transition: opacity 300ms ease;
   transition: opacity 300ms ease;
 }
@@ -31700,7 +31700,7 @@ body:not(.cursor-is--active) .product__options .size-control select {
 .product__options .size-control:after, .product__options .size-control:before {
   content: "";
   position: absolute;
-  background-color: #88df00;
+  background-color: #fbbe04;
   -webkit-transition: opacity 300ms ease;
   transition: opacity 300ms ease;
 }

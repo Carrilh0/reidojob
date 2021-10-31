@@ -8,6 +8,30 @@ Description:  You can add your custom CSS here and it will overwrite template st
     opacity: 0.7;
 }
 
+#visits-box {
+    position: fixed;
+    right: 0;
+    top: 250px;
+    z-index: 1101;
+    background: #fbbe04;
+    padding: 0 10px;
+    font-weight: 900;
+    border-radius: 10px 0px 0px 10px;
+    cursor: default;
+}
+
+.zap-fixed {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1101;
+}
+
+.zap-fixed i {
+    font-size: 50px;
+    color: #fbbe04;
+}
+
 .page-thumbnail {
     background: #212540d1;
 }
@@ -51,6 +75,19 @@ Description:  You can add your custom CSS here and it will overwrite template st
 }
 
 @media (max-width: 768px) {
+    #visits-box {
+        top: unset !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        border-radius: 0 10px 0 0px !important;
+        width: 140px;
+    }
+
+
+    .is-hidden-mobile {
+        display: none;
+    }
+    
     .landing-detail--left span, .landing-detail-cover--left span {
         left: -130px !important;
     }

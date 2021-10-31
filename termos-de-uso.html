@@ -79,7 +79,13 @@
     }
 </style>
 <body class="preloader-is--active ">
-
+	<a class="zap-fixed" href="http://api.whatsapp.com/send?1=pt_BR&phone=5571996656742&text=Vim%20pelo%20site,%20quero%20tirar%20uma%20dúvida" target="_blank">
+		<i class="fab fa-whatsapp"></i>
+	</a>
+	<div id="visits-box">
+		<span>Usuários no site: </span>
+		<span id="visits"></span>
+	</div>
 	<div class="site-wrapper site-layout--default">
 
 		<!-- Header
@@ -109,10 +115,10 @@
 			<div class="header-actions">
 				<div class="header-top-bar-toggle d-md-none hide">
 					<svg role="img" class="df-icon df-icon--joystick">
-						<use xlink:href="images/necromancers.svg#joystick"/>
+						<use href="images/necro.svg#joystick"/>
 					</svg>
 					<svg role="img" class="df-icon df-icon--close">
-						<use xlink:href="images/necromancers.svg#close"/>
+						<use href="images/necro.svg#close"/>
 					</svg>
 				</div>
 				<div class="header-menu-toggle">
@@ -448,7 +454,7 @@
 			<div class="menu-panel__navigation">
 				<div id="dl-menu" class="dl-menuwrapper">
 					<!-- <button class="dl-trigger">Open Menu</button> -->
-					<ul class="dl-menu dl-menuopen">
+					<ul class="dl-menu dl-menuopen is-hidden-mobile">
 						<li>
 							<a href="index.html">
 								Inicio
@@ -524,7 +530,7 @@
 			<div class="preloader-inner fadeInUp">
 				<div class="pong-loader"></div>
 				<svg role="img" class="df-icon df-icon--preloader-arcade">
-					<use xlink:href="images/necromancers.svg#preloader-arcade"/>
+					<use href="images/necro.svg#preloader-arcade"/>
 				</svg>
 			</div>
 		</div>
