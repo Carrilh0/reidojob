@@ -1123,7 +1123,7 @@
 
 			$( '.counter__number' ).counterUp({
 				delay: 10,
-				time: 2000
+				time: 5000
 			});
 
 			$( '.nano' ).nanoScroller();
