@@ -30,7 +30,7 @@ function whats() {
         var atual2 = ' platina '
     }
     if (atual == 'd') {
-        var atual2 = ' diamente '
+        var atual2 = ' diamante '
     }
 
     //tratando elo futuro
@@ -51,7 +51,7 @@ function whats() {
         var futura2 = ' platina '
     }
     if (futura == 'd') {
-        var futura2 = ' diamente '
+        var futura2 = ' diamante '
     }
     if (futura == 'm') {
         var futura2 = ' mestre '
