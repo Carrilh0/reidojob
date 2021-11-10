@@ -22,7 +22,7 @@ function whats() {
         var atual2 = ' platina '
     }
     if (atual == 'd75') {
-        var atual2 = ' diamente '
+        var atual2 = ' diamante '
     }
     if (atual == 'm75') {
         var atual2 = ' mestre '
