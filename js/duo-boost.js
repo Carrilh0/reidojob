@@ -66,7 +66,14 @@ function whats() {
     var text = 'Olá,%20estou%20no%20site,%20e%20quero%20Duo%20Job,%20estou%20no%20'+atual2+'%20'+atual1+'%20e%20quero%20ir%20para%20o%20'+futura2+'%20'+futura1+'%20no%20valor%20de%20'+valor1
     //var text = atual2.concat(concat).concat(atual1).concat(' e%20quero%20ir%20para%20o').concat(concat).concat(futura2).concat(concat).concat(futura1).concat(concat).concat('no').concat(concat).concat('valor').concat(concat).concat('de').concat(concat).concat(valor1)
 
-    var url = 'https://api.whatsapp.com/send?1=pt_BR&phone=5571996656742&text='.concat(text);
+    const type
+    if (mobileCheck() == false) {
+        type = "web"
+    } else {
+        type = "api"
+    }
+
+    var url = `https://${type}.whatsapp.com/send?1=pt_BR&phone=5571996656742&text=`.concat(text);
 
     window.open(url);
 }
@@ -151,37 +158,37 @@ function EloEvolution(attrs) {
 
     this._products = {
 f4: {
-    price: 20    },
+    price: 15    },
 f3: {
-    price: 20    },
+    price: 15    },
 f2: {
-    price: 20    },
+    price: 15    },
 f1: {
     price: 20    },
 b4: {
-    price: 25    },
+    price: 20    },
 b3: {
-    price: 25    },
+    price: 20    },
 b2: {
-    price: 25    },
+    price: 20    },
 b1: {
     price: 25    },
 s4: {
-    price: 30    },
+    price: 25    },
 s3: {
-    price: 30    },
+    price: 25    },
 s2: {
-    price: 30    },
+    price: 25    },
 s1: {
     price: 30    },
 g4: {
-    price: 35    },
+    price: 30    },
 g3: {
-    price: 35    },
+    price: 30    },
 g2: {
-    price: 35    },
+    price: 30    },
 g1: {
-    price: 35    },
+    price: 40    },
 p4: {
     price: 40    },
 p3: {
@@ -191,13 +198,13 @@ p2: {
 p1: {
     price: 60    },
 d4: {
-    price: 60    },
+    price: 80    },
 d3: {
-    price: 70    },
+    price: 100    },
 d2: {
-    price: 90    },
+    price: 150    },
 d1: {
-    price: 130    },
+    price: 200    },
 m4: {
     id: 0,
     price: 0

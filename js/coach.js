@@ -1,8 +1,15 @@
 function whats() {    
     var config = get_value_and_plan()
 
+    const type
+    if (mobileCheck() == false) {
+        type = "web"
+    } else {
+        type = "api"
+    }
+
     var text = `Olá,%20estou%20no%20site%20e%20quero%20contratar%20um%20Coach%20de%20 ${config["partidas"]} %20partidas%20no%20valor%20de%20 ${config["valor"]}`
-    var url = 'https://api.whatsapp.com/send?1=pt_BR&phone=5571996656742&text='.concat(text);
+    var url = `https://${type}.whatsapp.com/send?1=pt_BR&phone=5571996656742&text=`.concat(text);
 
     window.open(url);
 }

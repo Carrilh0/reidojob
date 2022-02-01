@@ -35,7 +35,15 @@ function whats() {
     }
 
     var text = `Olá,%20estou%20no%20site%20e%20quero%20MD10%20do%20elo%20 ${atual2} %20no%20valor%20de%20 ${valor}`
-    var url = 'https://api.whatsapp.com/send?1=pt_BR&phone=5571996656742&text='.concat(text);
+    
+    const type
+    if (mobileCheck() == false) {
+        type = "web"
+    } else {
+        type = "api"
+    }
+
+    var url = `https://${type}.whatsapp.com/send?1=pt_BR&phone=5571996656742&text=`.concat(text);
 
     window.open(url);
 }

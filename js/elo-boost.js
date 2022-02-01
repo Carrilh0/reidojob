@@ -68,7 +68,14 @@ function whats() {
 
     //var text = atual2.concat(concat).concat(atual1).concat(' e%20quero%20ir%20para%20o').concat(concat).concat(futura2).concat(concat).concat(futura1).concat(concat).concat('no').concat(concat).concat('valor').concat(concat).concat('de').concat(concat).concat(valor1)
 
-    var url = 'https://api.whatsapp.com/send?1=pt_BR&phone=5571996656742&text='.concat(text);
+    const type
+    if (mobileCheck() == false) {
+        type = "web"
+    } else {
+        type = "api"
+    }
+
+    var url = `https://${type}.whatsapp.com/send?1=pt_BR&phone=5571996656742&text=`.concat(text);
 
     window.open(url);
 }
@@ -232,6 +239,7 @@ function EloEvolution(attrs) {
 
             price: 50
         },
+        
         d4: {
 
             price: 60
