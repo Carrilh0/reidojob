@@ -1,7 +1,6 @@
 function whats() {    
     var config = get_value_and_plan()
 
-    const type
     if (mobileCheck() == false) {
         type = "web"
     } else {

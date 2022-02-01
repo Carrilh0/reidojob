@@ -36,7 +36,6 @@ function whats() {
 
     var text = `Olá,%20estou%20no%20site%20e%20quero%20MD10%20do%20elo%20 ${atual2} %20no%20valor%20de%20 ${valor}`
     
-    const type
     if (mobileCheck() == false) {
         type = "web"
     } else {

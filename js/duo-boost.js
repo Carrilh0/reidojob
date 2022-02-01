@@ -66,7 +66,6 @@ function whats() {
     var text = 'Olá,%20estou%20no%20site,%20e%20quero%20Duo%20Job,%20estou%20no%20'+atual2+'%20'+atual1+'%20e%20quero%20ir%20para%20o%20'+futura2+'%20'+futura1+'%20no%20valor%20de%20'+valor1
     //var text = atual2.concat(concat).concat(atual1).concat(' e%20quero%20ir%20para%20o').concat(concat).concat(futura2).concat(concat).concat(futura1).concat(concat).concat('no').concat(concat).concat('valor').concat(concat).concat('de').concat(concat).concat(valor1)
 
-    const type
     if (mobileCheck() == false) {
         type = "web"
     } else {
