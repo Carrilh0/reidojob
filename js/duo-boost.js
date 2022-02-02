@@ -15,56 +15,56 @@ function whats() {
 
     //tratando elo atual
     if (atual == 'f') {
-        var atual2 = ' ferro '
+        var atual2 = 'ferro'
     }
     if (atual == 'b') {
-        var atual2 = ' bronze '
+        var atual2 = 'bronze'
     }
     if (atual == 's') {
-        var atual2 = ' prata '
+        var atual2 = 'prata'
     }
     if (atual == 'g') {
-        var atual2 = ' ouro '
+        var atual2 = 'ouro'
     }
     if (atual == 'p') {
-        var atual2 = ' platina '
+        var atual2 = 'platina'
     }
     if (atual == 'd') {
-        var atual2 = ' diamante '
+        var atual2 = 'diamante'
     }
 
     //tratando elo futuro
 
     if (futura == 'f') {
-        var futura2 = ' ferro '
+        var futura2 = 'ferro'
     }
     if (futura == 'b') {
-        var futura2 = ' bronze '
+        var futura2 = 'bronze'
     }
     if (futura == 's') {
-        var futura2 = ' prata '
+        var futura2 = 'prata'
     }
     if (futura == 'g') {
-        var futura2 = ' ouro '
+        var futura2 = 'ouro'
     }
     if (futura == 'p') {
-        var futura2 = ' platina '
+        var futura2 = 'platina'
     }
     if (futura == 'd') {
-        var futura2 = ' diamante '
+        var futura2 = 'diamante'
     }
     if (futura == 'm') {
-        var futura2 = ' mestre '
+        var futura2 = 'mestre'
     }
     if (futura == 'gm') {
-        var futura2 = ' grao mestre '
+        var futura2 = 'grao mestre'
     }
     if (futura == 'c') {
-        var futura2 = ' desafiante '
+        var futura2 = 'desafiante'
     }
     var concat = '%20'
-    var text = 'Olá,%20estou%20no%20site,%20e%20quero%20Duo%20Job,%20estou%20no%20'+atual2+'%20'+atual1+'%20e%20quero%20ir%20para%20o%20'+futura2+'%20'+futura1+'%20no%20valor%20de%20'+valor1
-    //var text = atual2.concat(concat).concat(atual1).concat(' e%20quero%20ir%20para%20o').concat(concat).concat(futura2).concat(concat).concat(futura1).concat(concat).concat('no').concat(concat).concat('valor').concat(concat).concat('de').concat(concat).concat(valor1)
+    var text = 'Olá,%20estou%20no%20site,%20e%20quero%20Duo%20Job.%20Estou%20no%20'+atual2+'%20'+atual1+'%20e%20quero%20chegar%20no%20'+futura2+'%20'+futura1+', no%20valor%20de%20'+valor1+"."
+    //var text = atual2.concat(concat).concat(atual1).concat('e%20quero%20ir%20para%20o').concat(concat).concat(futura2).concat(concat).concat(futura1).concat(concat).concat('no').concat(concat).concat('valor').concat(concat).concat('de').concat(concat).concat(valor1)
 
     if (mobileCheck() == false) {
         type = "web"
